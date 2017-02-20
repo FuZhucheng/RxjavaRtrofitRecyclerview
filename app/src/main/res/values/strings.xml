@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RxjavaRtrofitRecyclerview</string>
+    <!--menu_drawer.xml-->
+    <string name="menu_login">登录</string>
+    <string name="menu_publish">购物车</string>
+    <string name="menu_published">经历</string>
+    <string name="menu_growth">参加</string>
+    <string name="menu_collect">收藏</string>
+    <string name="menu_setting">设置</string>
+    <!--MainActivity-->
+    <string name="menu_enter">确定</string>
+    <!--DrawerActivity-->
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+    <!--global-->
+    <string name="request_success">获取成功</string>
+    <string name="request_error">获取失败</string>
+
+
+
+</resources>
