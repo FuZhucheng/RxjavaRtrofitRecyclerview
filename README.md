@@ -4,6 +4,7 @@
 ### [Android-多列表的项目（Rxjava+Rtrofit+Recyclerview+Glide+Adapter封装）之（一）项目架构](http://blog.csdn.net/jack__frost/article/details/55853599)
 ### [Android-多列表的项目（Rxjava+Rtrofit+Recyclerview+Glide+Adapter封装）之（二）网络层的封装](http://blog.csdn.net/Jack__Frost/article/details/56012531)
 ### [Android-ButterKnife不能注解RatingBar（含ButterKnife部分原理以及View传递机制）](http://blog.csdn.net/Jack__Frost/article/details/59490388)
+### [Android--焦点问题以及讨论事件传递机制问题（结合部分相关源码）](http://blog.csdn.net/jack__frost/article/details/59578796)
 ***
 ### 喜欢给个star吧。
 ### 更多内容，可以访问[JackFrost的博客](http://blog.csdn.net/jack__frost?viewmode=contents)
