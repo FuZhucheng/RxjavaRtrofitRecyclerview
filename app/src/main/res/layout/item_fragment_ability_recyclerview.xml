@@ -31,6 +31,14 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorAbilityText"
                 android:textSize="16sp" />
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="@style/roomRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="9dp"
+                android:isIndicator="true" />
 
 
         </LinearLayout>

@@ -2,8 +2,10 @@ package com.fuzhucheng.rxjavartrofitrecyclerview.fragment;
 
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.RecyclerView;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.RatingBar;
 
 import com.bumptech.glide.Glide;
 import com.fuzhucheng.rxjavartrofitrecyclerview.bean.AbilityItem;
@@ -39,6 +41,8 @@ public class AbilityFragment extends BannerFragment implements View.OnClickListe
     private CommonAdapter<AbilityItem> adapter;
     private MovieRequest movieRequest;
 
+    private RatingBar ratingBar;
+
 
     private List<String> bitmapList = new ArrayList<>();
 
@@ -50,6 +54,9 @@ public class AbilityFragment extends BannerFragment implements View.OnClickListe
 
     @Override
     protected void initView() {
+        LayoutInflater layoutInflater = LayoutInflater.from(getActivity());
+        View view = layoutInflater.inflate(R.layout.fragment_ability1, null);
+        ratingBar = (RatingBar) view.findViewById(R.id.ratingBar);
         super.initView();
 
     }
@@ -100,6 +107,7 @@ public class AbilityFragment extends BannerFragment implements View.OnClickListe
 
                                 holder.setText(R.id.place, abilityItem.getTitle());
                                 holder.setText(R.id.price, abilityItem.getContent());
+                                holder.setRating(R.id.ratingBar,2);
                                 ImageView circleImageView = holder.getView(R.id.image);
                                 Glide.with(getActivity()).load(abilityItem.getImage()).into(circleImageView);
                             }

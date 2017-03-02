@@ -9,4 +9,9 @@
         <item name="actionMenuTextColor">#ffffff</item>
     </style>
 
+    <style name="roomRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/room_rating_bar</item>
+        <item name="android:minHeight">24dip</item>
+        <item name="android:maxHeight">24dip</item>
+    </style>
 </resources>
